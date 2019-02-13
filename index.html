@@ -1,0 +1,123 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width", initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+body {font-family:'Sofia';color:fuchsia;font-size: 25;}
+#court{width:600px;
+height:250px;
+display: block;
+  margin-left: auto;
+  margin-right: auto;}
+#emmago{width: 130px;
+	height: 130px;}
+#kav{background-color:indigo;}
+.and{color:cyan;
+font-size: 25;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#D8BBF4;
+   color: black;
+   text-align: left;
+}
+#form{height:300px;}
+#formh{font-size: 18;}
+</style>
+</head>
+<body id="kav">
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <ul class="nav navbar-nav">
+      <li><img id="emmago"src="Logo.jpg" class="img-circle" alt="School Logo"></li>
+      <li><img id="emmago"src="Nest1.jpg" class="img-circle" alt="School Logo"></li>
+      <li><img id="emmago"src="Logo.jpg" class="img-circle" alt="School Logo"></li>
+      <li><img id="emmago"src="Nest1.jpg" class="img-circle" alt="School Logo"></li>
+      <li><img id="emmago"src="Logo.jpg" class="img-circle" alt="School Logo"></li>
+      <li><img id="emmago"src="Nest1.jpg" class="img-circle" alt="School Logo"></li>
+      <li><img id="emmago"src="Logo.jpg" class="img-circle" alt="School Logo"></li>
+    </ul>
+  </div>
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <ul class="nav navbar-nav">
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="index.html">Home
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="management.html">Management Committee</a></li>
+          <li><a href="extracurricular.html">Extra Curricular</a></li>
+          <li><a href="#">Teachers</a></li>
+        </ul>
+      </li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="newsletter.html">Newsletter</a></li>
+      <li><a href="#">School Fees</a></li>
+    </ul>
+    <form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="input-group">
+        <input type="text" class="and"class="form-control" placeholder="Search" name="search">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</nav>
+<div class="container" id="kav">
+  <h1>Welcome to Nestling Nursery School!</h1>
+  <p class="and">But Jesus called them unto him, and said, Suffer little children to come unto me, and forbid them not: for of such is the kingdom of God. Verily I say unto you, Whosoever shall not receive the kingdom of God as a little child shall in no wise enter therein.</p> 
+</div>
+<p id="kav">Nestling Nursery School is a Christian based Integrated Pre-School offering Holistic, High quality, Loving & Dependable Kindergarten services to young adventurers (3-5 years old) and Daycare & Playschool services for our dear tender bubbles (infants 6 months -2 years). 
+We believe that each child is amazing and unique, created in the image of God and if nurtured, can grow to be resilient, confident and of great influence in life!!
+We have caring and trained teachers, safe and happy environment. We also have games, music, swimming and nutritious meals.
+We are located in Kisaasi, Kampala.</p>
+<div class="footer">
+  <p>Contact: 0702501353/0782166676, Whatsapp:0702501353 Email: Nestling@gmail.com</p>
+</div>
+  <!-- Nathan's code starts here -->
+  <div class="well" >
+    <div class="row">
+    <div class="col-sm-3">
+      <img src="swimming.jpg" class="img-thumbnail" alt="swimming" id="form">
+    </div>
+    <div class="col-sm-3">
+      <img src="swimming.jpg" class="img-thumbnail" alt="swimming" id="form">
+    </div>
+    <div class="col-sm-6"id="formh">
+      <p> Please give us your information so we can contact you.</p>
+      <form action="/action_page.php" >
+    <div class="form-group" >
+      <label for="usr">Name of Child:</label>
+      <input type="text" class="form-control" id="user" placeholder="Enter Name" name="text">
+    </div>
+    <div class="form-group" >
+      <label for="number">Age of Child</label>
+      <input type="number" class="form-control" id="pwd" placeholder="Enter age" name="pwd">
+    </div>
+    <div class="form-group" >
+      <label for="contact">Contact</label>
+      <input type="number" class="form-control" id="pwd" placeholder="Enter contact" name="pwd">
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+    </div>
+  </div>
+
+  </div>
+  <br/>
+  <!-- Nathan's code ends here -->
+
+</div>
+</body>
+</html>
